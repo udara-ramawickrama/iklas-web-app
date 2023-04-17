@@ -1,0 +1,43 @@
+    /* index page */
+    
+    #sign_in_page {
+        background: linear-gradient(to bottom right, #e4ecef, #9edbf0);
+    }
+    
+    .sign_img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sign_img .logo {
+        max-width: 42%;
+        margin-left: 5px;
+    }
+    
+    .sign_img img span {
+        font-size: 14px;
+    }
+    
+    .ihub {
+        font-size: 13px;
+    }
+    
+    .sign_img button {
+        border: none;
+        padding: 0px;
+    }
+    
+    .authorProfileImage img {
+        border-radius: 50%;
+        max-width: 56%;
+        border: 1px solid #fff;
+    }
+    
+    .copyright {
+        text-align: center;
+        line-height: 0.1px;
+    }
+    
+    .copyright p {
+        color: #777777;
+    }
