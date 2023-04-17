@@ -1,0 +1,162 @@
+/* -------------error_msg_page------------- */
+
+#sign_in_page {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #e4ecef, #9edbf0);
+}
+
+.sign_in_box {
+    margin-bottom: 170px;
+}
+
+.card {
+    border-radius: 34px;
+    background-color: #ffffff;
+}
+
+.sign_img {
+    display: flex;
+    justify-content: center;
+}
+
+.sign_img img {
+    max-width: 30%;
+}
+
+.sign_img img span {
+    font-size: 14px;
+}
+
+.ihub {
+    font-size: 13px;
+}
+
+.border_input {
+    border: 1px solid #b3ebff;
+    border-radius: 5px;
+    padding: 5px 14px;
+    font-size: 15px;
+    border: 1px solid #aaa;
+    box-shadow: 0.5px 0.5px #61a3c8;
+    line-height: 27px;
+}
+
+.card-body label {
+    color: #61a3c8;
+}
+
+.button {
+    text-align: center;
+}
+
+.button input {
+    background: linear-gradient(to bottom right, #2bc1a1, #265199);
+    border: none;
+    border-radius: 30px;
+    width: 46%;
+    padding: 4px;
+    font-size: 15px;
+    color: #fff;
+    line-height: 31px;
+}
+
+.copyright {
+    text-align: center;
+    line-height: 0.1px;
+}
+
+.copyright p {
+    color: #777777;
+}
+
+.error_msg {
+    background-color: #fff3cd;
+    padding: 15px;
+    border-radius: 7px
+}
+
+.error_oops {
+    color: #664d44;
+    line-height: 23px;
+    margin-bottom: -11px;
+}
+
+.error_oops span {
+    font-weight: bold;
+}
+
+.error_2 {
+    background-color: #f8d7da;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.error_sorry {
+    color: #932029;
+    line-height: 23px;
+    margin-bottom: -11px;
+}
+
+.error_sorry span {
+    font-weight: bold;
+}
+
+
+/* buttons */
+
+.error_content {
+    display: flex;
+    align-items: center;
+}
+
+.error_content p {
+    flex-grow: 1;
+}
+
+.close {
+    /* position: absolute;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 39px;
+    color: #807a67;
+    cursor: pointer;
+    bottom: 204px; */
+    background: transparent;
+    border: none;
+    font-size: 39px;
+    color: #807a67;
+    cursor: pointer;
+    margin-bottom: 41px;
+}
+
+.close_2 {
+    background: transparent;
+    border: none;
+    font-size: 39px;
+    color: #807a67;
+    cursor: pointer;
+    margin-bottom: 62px;
+}
+
+
+/* media quarries */
+
+@media all and (min-width: 768px) {
+    .card {
+        left: 106%;
+    }
+    .close {
+        padding-left: 111px;
+    }
+    .error_content p {
+        font-size: 15.5px;
+    }
+    .close_2 {
+        padding-right: 9px;
+        margin-bottom: 49px;
+    }
+}

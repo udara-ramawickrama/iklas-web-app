@@ -1,66 +1,75 @@
-#sign_in_page {
-    height: 1000px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom right, #e4ecef, #9edbf0);
-}
-
-.sign_in_box {
-    margin-bottom: 274px;
-}
-
-.card {
-    border-radius: 34px;
-    background-color: #ffffff;
-}
-
-.sign_img {
-    display: flex;
-    justify-content: center;
-}
-
-.sign_img img {
-    max-width: 30%;
-}
-
-.sign_img img span {
-    font-size: 14px;
-}
-
-.ihub {
-    font-size: 13px;
-}
-
-.border_input {
-    border: 1px solid #b3ebff;
-    border-radius: 5px;
-    padding: 5px 14px;
-    font-size: 15px;
-    border: 1px solid #aaa;
-    box-shadow: 0.5px 0.5px #61a3c8;
-    line-height: 27px;
-}
-
-.card-body label {
-    color: #61a3c8;
-}
-
-.button {
-    text-align: center;
-}
-
-.button input {
-    background: linear-gradient(to bottom right, #2bc1a1, #265199);
-    border: none;
-    border-radius: 30px;
-    width: 46%;
-    padding: 4px;
-    font-size: 15px;
-    color: #fff;
-    line-height: 31px;
-}
-
-.copyright {
-    text-align: center;
-}
+    /* index page */
+    
+    #sign_in_page {
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom right, #e4ecef, #9edbf0);
+    }
+    
+    .sign_in_box {
+        margin-bottom: 274px;
+    }
+    
+    .card {
+        border-radius: 34px;
+        background-color: #ffffff;
+    }
+    
+    .sign_img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sign_img img {
+        max-width: 30%;
+    }
+    
+    .sign_img img span {
+        font-size: 14px;
+    }
+    
+    .ihub {
+        font-size: 13px;
+    }
+    
+    .border_input {
+        border: 1px solid #b3ebff;
+        border-radius: 5px;
+        padding: 5px 14px;
+        font-size: 15px;
+        border: 1px solid #aaa;
+        box-shadow: 0.5px 0.5px #61a3c8;
+        line-height: 27px;
+    }
+    
+    .card-body label {
+        color: #61a3c8;
+    }
+    
+    .button {
+        text-align: center;
+    }
+    
+    .button input {
+        background: linear-gradient(to bottom right, #2bc1a1, #265199);
+        border: none;
+        border-radius: 30px;
+        width: 46%;
+        padding: 4px;
+        font-size: 15px;
+        color: #fff;
+        line-height: 31px;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
+    /* media quarries */
+    
+    @media all and (min-width: 768px) {
+        .card {
+            left: 106%;
+        }
+    }
