@@ -41,3 +41,8 @@
     .copyright p {
         color: #777777;
     }
+    
+    .cards {
+        display: flex;
+        justify-content: space-evenly;
+    }
