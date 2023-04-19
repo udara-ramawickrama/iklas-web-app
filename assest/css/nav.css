@@ -46,3 +46,31 @@
         display: flex;
         justify-content: space-evenly;
     }
+    /* .cards_section */
+    
+    #card_section {
+        margin: 268px 0px;
+    }
+    
+    .card {
+        width: 43%;
+        background-color: #edf3f5;
+        border: 1px solid #fff;
+        border-radius: 12px;
+    }
+    
+    .card_img_wrap {
+        text-align: center;
+        line-height: 30px;
+    }
+    
+    .card_img_wrap a {
+        font-size: 34px;
+    }
+    
+    .card_img_wrap p {
+        font-size: 27px;
+        font-size: 17px;
+        color: rgb(75 131 194);
+        font-weight: 600;
+    }
