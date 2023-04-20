@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- style_sheet -->
+    <link rel="stylesheet" type="text/css" href="./assest/css/form.css">
+    <title>iklas_form</title>
+</head>
+
+<body>
+    <root>
+        <div id="sign_in_page">
+            <div class="container">
+                <header>
+                    <nav class="navbar navbar-expand-lg navbar-light navbar-float pt-3">
+                        <div class="container">
+                            <div class="sign_img">
+                                <a href="index.html" class="navbar-brand my-auto"><img src="./images/logo.png " alt="logo" class="logo">&nbsp;<span class="ihub">iHUB</span></a>
+                                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <div class="authorProfileImage "><img src="./images/user.png" alt="lady"></div>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse" id="navbarContent">
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+
+                <main>
+                    <div class="sub_header mt-5">
+                        <p>Set your additional search filters to<br>retrieve the report data</p>
+                    </div>
+                    <div id="card_section">
+                        <div class="col-12 cards">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="site">
+                                        <p class="color">Site:</p>
+                                        <label for="check_2"><input type="checkbox" id="check_form" name="check_form" value="main_form1">&nbsp; Select All</label>
+
+                                        <i></i>
+                                        <p>Custom</p>
+                                    </div>
+                                    <div class="error_content">
+                                        <button class="close"><span>G3 KB132-1</span> &nbsp; <span class="font">&times;</span></button>
+                                        <button class="close ms-1"><span>G3 KB132-1</span> &nbsp; <span class="font">&times;</span></button>
+                                    </div>
+                                    <div class="error_content mt-2">
+                                        <button class="close"><span>G3 KB132-1</span> &nbsp; <span class="font">&times;</span></button> &nbsp;<span class="ms-1">and 2 more</span>
+                                    </div>
+
+                                    <div class="formbold-input-flex">
+                                        <div>
+                                            <label for="Box id" class="formbold-form-label">
+                                            Box id:
+                                          </label>
+                                            <input type="text" name="Box id" id="Box id" class="formbold-form-input" value="Box id" />
+                                        </div>
+                                        <div>
+                                            <label for="Key id" class="formbold-form-label"> Key id: </label>
+                                            <input type="text" name="Key id" id="Key id" class="formbold-form-input" value="Key id" />
+                                        </div>
+                                    </div>
+
+                                    <div class="formbold-input-flex">
+                                        <div>
+                                            <label for="Key Name" class="formbold-form-label"> Key Name: </label>
+                                            <input type="Key Name" name="Key Name" id="Key Name" class="formbold-form-input" value="Key name" />
+                                        </div>
+                                        <div>
+                                            <label for="User Id" class="formbold-form-label"> User Id: </label>
+                                            <input type="text" name="User Id" id="User Id" class="formbold-form-input" value="user id" />
+                                        </div>
+                                    </div>
+
+                                    <div class="formbold-mb-3">
+                                        <label for="name" class="formbold-form-label">
+                                          Name:
+                                        </label>
+                                        <input type="text" name="name" id="name" class="formbold-form-input" />
+                                    </div>
+
+                                    <div class="formbold-mb-3">
+                                        <label for="Position" class="formbold-form-label">
+                                          Position:
+                                        </label>
+                                        <input type="text" name="Position" id="Position" class="formbold-form-input" />
+                                    </div>
+
+                                    <div class="status_wrap mb-2 mt-2">
+                                        <p class="formbold-form-label">Status:</p>
+                                        <form>
+                                            <button class="formbold-btn">
+                                            Available
+                                        </button>
+                                            <button class="formbold-btn">
+                                            Expired
+                                        </button>
+                                            <button class="formbold-btn">
+                                            Withdrawn
+                                        </button>
+                                            <button class="formbold-btn">
+                                            Not Installed
+                                        </button>
+                                        </form>
+                                    </div>
+
+                                    <!-- <div class="formbold-mb-4"> -->
+                                    <label for="dob" class="formbold-form-label margin_left"> Withdrawn Date: </label>
+                                    <input type="date" name="dob" id="dob" class="formbold-form-input mb-4" />
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button mt-4">
+                        <p class="my-auto ms-4"><span><</span>&nbsp;Go Back</p>
+                        <input type="submit" value="View Report&nbsp;>">
+                    </div>
+            </div>
+
+            </main>
+        </div>
+    </root>
+</body>
+
+</html>

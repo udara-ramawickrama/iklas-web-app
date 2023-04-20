@@ -1,0 +1,105 @@
+    /* index page */
+    
+    #sign_in_page {
+        background: linear-gradient(to bottom right, #e4ecef, #9edbf0);
+    }
+    
+    .sign_img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sign_img .logo {
+        max-width: 42%;
+        margin-left: 5px;
+    }
+    
+    .sign_img img span {
+        font-size: 14px;
+    }
+    
+    .ihub {
+        font-size: 13px;
+    }
+    
+    .sign_img button {
+        border: none;
+        padding: 0px;
+    }
+    
+    .authorProfileImage img {
+        border-radius: 50%;
+        max-width: 56%;
+        border: 1px solid #fff;
+    }
+    
+    .sub_header p {
+        text-align: center;
+        font-size: 16px;
+        color: #212529;
+        font-weight: 400;
+    }
+    
+    .main_check {
+        line-height: 49px;
+        color: #0083b4;
+        font-weight: 700;
+    }
+    
+    .checkbox form {
+        margin-left: 21px;
+        line-height: 45px;
+    }
+    
+    .checkbox form label {
+        color: #9999b1;
+        font-weight: 600;
+    }
+    
+    .copyright {
+        text-align: center;
+        line-height: 0.1px;
+    }
+    
+    .copyright p {
+        color: #777777;
+        margin-bottom: 7px;
+    }
+    /* button */
+    
+    .button {
+        text-align: center;
+    }
+    
+    .button input {
+        background: linear-gradient(to bottom right, #2bc1a1, #265199);
+        border: none;
+        border-radius: 30px;
+        width: 46%;
+        padding: 4px;
+        font-size: 18px;
+        color: #fff;
+        line-height: 40px;
+    }
+    
+    @media all and (min-width: 768px) {
+        .sub_header p {
+            font-size: 33px;
+        }
+        .cards {
+            text-align: -webkit-center;
+        }
+        .card {
+            max-width: 50%;
+        }
+        .checkbox_wrap {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .button input {
+            width: 17%;
+            padding: 4px;
+            font-size: 22px;
+            line-height: 44px;
+        }
+    }

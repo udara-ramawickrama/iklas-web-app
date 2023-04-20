@@ -1,0 +1,184 @@
+    /* index page */
+    
+    #sign_in_page {
+        background: linear-gradient(to bottom right, #e4ecef, #9edbf0);
+    }
+    
+    .sign_img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sign_img .logo {
+        max-width: 42%;
+        margin-left: 5px;
+    }
+    
+    .sign_img img span {
+        font-size: 14px;
+    }
+    
+    .ihub {
+        font-size: 13px;
+    }
+    
+    .sign_img button {
+        border: none;
+        padding: 0px;
+    }
+    
+    .authorProfileImage img {
+        border-radius: 50%;
+        max-width: 56%;
+        border: 1px solid #fff;
+    }
+    
+    .sub_header p {
+        text-align: center;
+        font-size: 16px;
+        color: #212529;
+        font-weight: 400;
+    }
+    
+    .card {
+        background: linear-gradient(to bottom right, #f5f8f9, #e3edf1);
+        border-radius: 18px;
+    }
+    
+    .button {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .button p {
+        color: #253eab;
+        font-weight: 700;
+    }
+    
+    .button p span {
+        font-size: 26px;
+    }
+    
+    .site {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .site .color {
+        color: black;
+    }
+    
+    .site label {
+        margin-left: 88px;
+        color: #0083b4;
+    }
+    
+    .site p {
+        color: #0083b4;
+    }
+    
+    .close {
+        background-color: #e6f1f5;
+        border: 1px solid #7e9ba5;
+        border-radius: 16px;
+        font-size: 15px;
+        line-height: 14px;
+        padding-bottom: 8px;
+    }
+    
+    .error_content .font {
+        font-size: 28px;
+        color: #b6ced7;
+    }
+    
+    .error_content span {
+        font-size: 15.5px;
+        color: #0091cb;
+    }
+    /* form */
+    
+    .formbold-input-flex {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .formbold-input-flex div {
+        width: 50;
+    }
+    
+    .formbold-form-label {
+        margin: 11px 0px;
+    }
+    
+    .formbold-form-input {
+        width: 100%;
+        padding: 5px 22px;
+        border-radius: 5px;
+        border: 2px solid #b5d3de;
+        background: #ffffff;
+        font-weight: 300;
+        color: #536387;
+    }
+    
+    .status_wrap button {
+        background-color: #e6f1f5;
+        border: 1px solid #7e9ba5;
+        border-radius: 7px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    
+    .status_wrap form {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* button */
+    
+    .button {
+        text-align: center;
+    }
+    
+    .button input {
+        background: linear-gradient(to bottom right, #2bc1a1, #265199);
+        border: none;
+        border-radius: 30px;
+        width: 46%;
+        padding: 4px;
+        font-size: 18px;
+        color: #fff;
+        line-height: 40px;
+    }
+    
+    @media all and (min-width: 768px) {
+        .sub_header p {
+            font-size: 33px;
+        }
+        .cards {
+            text-align: -webkit-center;
+        }
+        .card {
+            max-width: 50%;
+        }
+        .checkbox_wrap {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .button input {
+            width: 17%;
+            padding: 4px;
+            font-size: 22px;
+            line-height: 44px;
+        }
+        .formbold-form-label {
+            float: left;
+        }
+        .status_wrap form {
+            justify-content: space-around;
+        }
+        .margin_left {
+            margin-left: -48px;
+        }
+        .button {
+            justify-content: space-around;
+        }
+    }
